@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,500&display=swap');
+
+
+.App {
+  text-align: center;
+  
+}
+
+body{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Arial, Helvetica', sans-serif;
+}
+
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Arial, Helvetica', sans-serif;
+}
+a{
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+
+.LoginCont{
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.GoogleButton{
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  height: 45px;
+}
+.LogOut{
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  height: 45px;
+}
+
+.Home{
+  margin-left: 120px;
+  margin-top: 30px;
+  align-items: center;
+  
+}
+
+.AddTenantButton{
+  height: 80px;
+  width: 120px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 10px 10px rgb(190, 190, 190) ;
+  border: none;
+  cursor: pointer;
+
+}
+
+.createTenant{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  place-items: center;
+  margin: 10px;
+  flex-direction: column;
+
+}
+
+.createTenant>h1{
+  margin: 10px;
+}
+
+.form{
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.form> input{
+  border-radius: 10px;
+  border-color: black;
+  padding: 5px;
+}
+
+.addTenant{
+  height: 80px;
+  width: 120px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 10px 10px rgb(190, 190, 190) ;
+  border: none;
+  cursor: pointer;
+}
+
+.homePage{
+  display: flex;
+  flex-direction: row;
+}
+
+.docCont{
+  margin: 25px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.docContH1{
+  color: rgb(99, 168, 233);
+  margin: 20px;
+}
+
+.docContCol{
+  color: rgb(99, 168, 233);
+}
+
+.btn{
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+.error{
+  color: rgb(233, 81, 81);
+}
+
+.CreateTenant>h1{
+  margin: 20px;
+}
+
+.CardCont{
+  background-color: black;
+  color: white;
+  margin: 30px;
+  width: 200px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+}
+.cardButtons{
+  display: flex;
+}
